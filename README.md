@@ -1,6 +1,8 @@
 # Neopixel lampičky
 Táborové lampičky pro MDDM
 
+![Foto](images/foto.jpg)
+
 ## 3D tisk
 [ABS průhledný kryt](stl/top.stl), [PETG nebo PLA střední část](stl/middle.stl), [PETG nebo PLA spodní část](stl/bottom.stl)
 
