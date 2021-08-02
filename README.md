@@ -14,7 +14,7 @@ Spodní a stření část jsou spojeny šrouby 2x M3x12mm a matkou 2x M3 vložen
 [Arduino Nano](https://store.arduino.cc/arduino-nano), [Mikrospínač TC-0106](https://www.gme.cz/tc-0108-t), [WS2812 RGB Led pásek, 6 neopixelů](https://www.aliexpress.com/item/2036819167.html?spm=a2g0s.9042311.0.0.31244c4dEEOILY)
 
 ## Připojení pinů
-Tlačítko je připojena na pin D7 a spíná proti GND. Led pásek je připojen pinem Din na pin Arduina D7, +5V a GND na stejný pin Arduina.
+Tlačítko je připojena na pin D7 a spíná proti GND. Led pásek je připojen pinem Din na pin Arduina D7, +5V a GND na významově stejný pin Arduina.
 
 ```
 #define PIN_LEDS 6
