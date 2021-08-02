@@ -2,9 +2,9 @@
 Táborové lampičky pro MDDM
 
 ## 3D tisk
-![ABS průhledný kryt](stl/top.stl)
-![PETG nebo PLA střední část](stl/middle.stl)
-![PETG nebo PLA spodní část](stl/bottom.stl)
+[ABS průhledný kryt](stl/top.stl)
+[PETG nebo PLA střední část](stl/middle.stl)
+[PETG nebo PLA spodní část](stl/bottom.stl)
 
 Tisk vrstvou 0,2mm. 
 
