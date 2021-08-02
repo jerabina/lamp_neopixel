@@ -2,9 +2,7 @@
 Táborové lampičky pro MDDM
 
 ## 3D tisk
-[ABS průhledný kryt](stl/top.stl)
-[PETG nebo PLA střední část](stl/middle.stl)
-[PETG nebo PLA spodní část](stl/bottom.stl)
+[ABS průhledný kryt](stl/top.stl), [PETG nebo PLA střední část](stl/middle.stl), [PETG nebo PLA spodní část](stl/bottom.stl)
 
 Tisk vrstvou 0,2mm. 
 
@@ -25,8 +23,6 @@ Tlačítko je připojena na pin D7 a spíná proti GND. Led pásek je připojen 
 Ukázkové programy lze nahrát v prostředí Arduino, které si stáhnete na adrese [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software).
 Po instalaci je potřeba přidat dvě knihovny [FastLED](https://github.com/FastLED/FastLED) a [JC_Button](https://github.com/JChristensen/JC_Button).
 V prostředí Arduino menu: projekt -> Přidat knihovnu -> spravovat knihovny, otevře se správce a do vyhlédávacího pole nejprve zadáte FastLED a pak JC_Button, u nalezené knihovny kliknete na tlačítko instalovat.
-
-
 
 ### [Sekvencer](kod_sekvencer/)
 Program přehrává postupně jednolivé sekvence, které se mění zmáčknutím tlačítka.
