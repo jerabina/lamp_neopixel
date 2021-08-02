@@ -1,3 +1,4 @@
+
 LRGBT aniBlank[] = {
 //led,  R,  G,  B, interval time [ms]
 	0,   0,   0,   0,  0

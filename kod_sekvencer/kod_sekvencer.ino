@@ -1,7 +1,6 @@
 #include <Arduino.h>
 #include <FastLED.h>
 #include <JC_Button.h>
-//#include <EEPROM.h>  // ATmega328P - 1024 bytes
 
 #define NUM_LEDS    6
 #define PIN_LEDS    6   // D6
@@ -48,36 +47,36 @@ void loop() {
 	if (btn.wasReleased()) {
 		seqNum++;
 		// hlidani poctu sekvenci
-    // kdyz pridate dalsi je potreba cislo zvetsit
+		// kdyz pridate dalsi je potreba cislo zvetsit
 		if (seqNum > 4) seqNum = 0;
 		FastLED.clear(true);
 		stp = 0;
 		timeForAction = 0;
-    // prepinani sekveci
+		// prepinani sekveci
 		switch (seqNum) {
-      // sekvence c. 1
+			// sekvence c. 1
 			case 1:
 				seq = aniBlikacka;
 				seqSize = ARRAY_SIZE(aniBlikacka);
 				break;
-      // sekvence c. 2
+			// sekvence c. 2
 			case 2:
 				seq = aniBlikacka2;
 				seqSize = ARRAY_SIZE(aniBlikacka2);
 				break;
-      // sekvence c. 3
+			// sekvence c. 3
 			case 3:
 				seq = aniMajak;
 				seqSize = ARRAY_SIZE(aniMajak);
 				break;
-      // sekvence c. 4
+			// sekvence c. 4
 			case 4:
 				seq = aniRotace;
 				seqSize = ARRAY_SIZE(aniRotace);
 				break;
 
-      // sekvence c. 0
-      // slouzi jako vychozi, po zapnuti
+			// sekvence c. 0
+			// slouzi jako vychozi, po zapnuti
 			case 0:
 			default:
 				seq = aniBlank;
