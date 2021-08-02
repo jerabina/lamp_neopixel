@@ -22,13 +22,13 @@ Tlačítko je připojena na pin D7 a spíná proti GND. Led pásek je připojen 
 ```
 
 ## Software
-Ukázkové programy lze nahrát v prostředí Arduino, které si stáhnete na adrese ![https://www.arduino.cc/en/software](https://www.arduino.cc/en/software).
-Po instalaci je potřeba přidat dvě knihovny ![FastLED](https://github.com/FastLED/FastLED) a ![JC_Button](https://github.com/JChristensen/JC_Button).
+Ukázkové programy lze nahrát v prostředí Arduino, které si stáhnete na adrese [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software).
+Po instalaci je potřeba přidat dvě knihovny [FastLED](https://github.com/FastLED/FastLED) a [JC_Button](https://github.com/JChristensen/JC_Button).
 V prostředí Arduino menu: projekt -> Přidat knihovnu -> spravovat knihovny, otevře se správce a do vyhlédávacího pole nejprve zadáte FastLED a pak JC_Button, u nalezené knihovny kliknete na tlačítko instalovat.
 
 
 
-### Sekvencer
+### [Sekvencer](kod_sekvencer/)
 Program přehrává postupně jednolivé sekvence, které se mění zmáčknutím tlačítka.
 Skládá se ze dvou souborů:
 [kod_sekvencer.ino](kod_sekvencer/kod_sekvencer.ino) - obsluha pásku, tlačítka a přehrávač sekvencí
