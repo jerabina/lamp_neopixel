@@ -28,7 +28,6 @@ V prostředí Arduino menu: projekt -> Přidat knihovnu -> spravovat knihovny, o
 
 
 
-
 ### Sekvencer
 Program přehrává postupně jednolivé sekvence, které se mění zmáčknutím tlačítka.
 Skládá se ze dvou souborů:
